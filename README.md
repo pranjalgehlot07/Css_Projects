@@ -1,6 +1,3 @@
-Here is a **README review** you can use for your Matrix Calculator C program.
-
----
 
 # README – Matrix Calculator in C
 
@@ -106,6 +103,124 @@ This project demonstrates:
 
 It is a good beginner-level C programming project for understanding matrix manipulation and control structures.
 
+
+# Student Management Program (C++)
+
+## Overview
+
+This is a simple C++ program that demonstrates Object-Oriented Programming using a `Student` class.
+The program allows the user to enter details of multiple students and then displays the stored information.
+
 ---
 
-If you want, I can also write a **proper README.md file format** for GitHub.
+## Features
+
+* Uses C++ class and objects
+* Accepts student details:
+
+  * Roll Number
+  * Name
+  * Marks
+* Stores multiple student records
+* Displays all student information
+* Uses dynamic memory allocation
+* Supports names with spaces
+
+---
+
+## Technologies Used
+
+* C++
+* Object-Oriented Programming (OOP)
+* Dynamic Memory Allocation
+* Standard Input/Output
+
+---
+
+## Program Structure
+
+The program contains:
+
+### Class: Student
+
+**Data Members**
+
+* `roll` → Student roll number
+* `name` → Student name
+* `marks` → Student marks
+
+**Member Functions**
+
+* `input()` → Takes student details from user
+* `display()` → Displays student details
+
+### Main Function
+
+* Takes number of students
+* Creates dynamic array of Student objects
+* Calls input() for each student
+* Calls display() to print student data
+* Frees allocated memory
+
+---
+
+## How to Compile and Run
+
+### Compile
+
+```
+g++ main.cpp -o main
+```
+
+### Run
+
+```
+./main
+```
+
+---
+
+## Sample Input
+
+```
+Enter number of students: 2
+Enter Roll Number: 1
+Enter Name: John Smith
+Enter Marks: 85
+Enter Roll Number: 2
+Enter Name: Alice
+Enter Marks: 90
+```
+
+## Sample Output
+
+```
+--- Student Information ---
+
+Student 1
+Roll Number: 1
+Name: John Smith
+Marks: 85
+
+Student 2
+Roll Number: 2
+Name: Alice
+Marks: 90
+```
+
+---
+
+## Concepts Demonstrated
+
+* Classes and Objects
+* Encapsulation
+* Arrays of Objects
+* Dynamic Memory (`new` and `delete`)
+* Input using `getline()`
+* Loops
+
+---
+
+## Author
+
+Student Management System – C++ OOP Example
