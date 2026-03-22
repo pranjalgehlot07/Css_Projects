@@ -224,3 +224,142 @@ Marks: 90
 ## Author
 
 Student Management System – C++ OOP Example
+
+# Complex Number Operations Program (C++)
+
+## Overview
+
+This C++ program implements a **Complex Number Calculator** using Object-Oriented Programming (OOP).
+It performs arithmetic operations on complex numbers such as **addition, subtraction, and multiplication**.
+
+A complex number is represented in the form:
+
+```
+a + bi
+```
+
+Where:
+
+* `a` = real part
+* `b` = imaginary part
+* `i` = imaginary unit
+
+---
+
+## Features
+
+* Uses C++ class and objects
+* Accepts two complex numbers from the user
+* Performs:
+
+  * Addition
+  * Subtraction
+  * Multiplication
+* Displays results in complex number format
+* Demonstrates OOP concepts
+
+---
+
+## Technologies Used
+
+* C++
+* Object-Oriented Programming (OOP)
+* Functions
+* Classes and Objects
+* Standard Input/Output
+
+---
+
+## Program Structure
+
+### Class: Complex
+
+#### Data Members
+
+* `real` → Stores real part of complex number
+* `imag` → Stores imaginary part
+
+#### Member Functions
+
+* `input()` → Reads complex number from user
+* `add(Complex c2)` → Adds two complex numbers
+* `subtract(Complex c2)` → Subtracts two complex numbers
+* `multiply(Complex c2)` → Multiplies two complex numbers
+* `display()` → Displays complex number
+
+---
+
+## Complex Number Formulas Used
+
+### Addition
+
+```
+(a + bi) + (c + di) = (a + c) + (b + d)i
+```
+
+### Subtraction
+
+```
+(a + bi) - (c + di) = (a - c) + (b - d)i
+```
+
+### Multiplication
+
+```
+(a + bi)(c + di) = (ac − bd) + (ad + bc)i
+```
+
+---
+
+## How to Compile and Run
+
+### Compile
+
+```
+g++ complex.cpp -o complex
+```
+
+### Run
+
+```
+./complex
+```
+
+---
+
+## Sample Input
+
+```
+Enter first complex number:
+Enter real part: 2
+Enter imaginary part: 3
+
+Enter second complex number:
+Enter real part: 1
+Enter imaginary part: 4
+```
+
+## Sample Output
+
+```
+Addition: 3 + 7i
+Subtraction: 1 + -1i
+Multiplication: -10 + 11i
+```
+
+---
+
+## Concepts Demonstrated
+
+* Classes and Objects
+* Function Returning Object
+* Passing Object as Argument
+* Encapsulation
+* Arithmetic Operations on Objects
+
+---
+
+## Conclusion
+
+This program demonstrates how **Object-Oriented Programming in C++** can be used to model real-world mathematical concepts like complex numbers and perform operations on them using class member functions.
+
