@@ -363,3 +363,121 @@ Multiplication: -10 + 11i
 
 This program demonstrates how **Object-Oriented Programming in C++** can be used to model real-world mathematical concepts like complex numbers and perform operations on them using class member functions.
 
+
+#  Student Management Program (C++)
+
+## Overview
+
+This is a basic C++ program that demonstrates the use of **classes and objects**. It allows the user to input and display details of two students, including:
+
+* Student ID
+* Name
+* Marks
+
+---
+
+## Features
+
+* Uses **Object-Oriented Programming (OOP)** concepts
+* Accepts user input for multiple students
+* Displays student details in a structured format
+* Demonstrates use of:
+
+  * Classes
+  * Private & Public members
+  * Member functions
+
+---
+
+## Technologies Used
+
+* C++
+* Standard Library (`iostream`, `string`)
+
+---
+
+## Program Structure
+
+* `class Student`
+
+  * **Private Members:**
+
+    * `studentID`
+    * `name`
+    * `marks`
+  * **Public Methods:**
+
+    * `getInputs()` → Takes input from user
+    * `displayResults()` → Displays student details
+
+* `main()`
+
+  * Creates two student objects (`s1`, `s2`)
+  * Calls input and display functions
+
+---
+
+## How to Run
+
+1. Copy the code into a file named:
+
+   ```
+   student.cpp
+   ```
+
+2. Compile the program:
+
+   ```
+   g++ student.cpp -o student
+   ```
+
+3. Run the program:
+
+   ```
+   ./student
+   ```
+
+---
+
+## Sample Output
+
+```
+Enter details for Student 1:
+Enter Student ID: 101
+Enter Name: Rahul
+Enter Marks: 85
+
+Enter details for Student 2:
+Enter Student ID: 102
+Enter Name: Priya
+Enter Marks: 90
+
+Student Results:
+Student ID: 101
+Name: Rahul
+Marks: 85
+
+Student ID: 102
+Name: Priya
+Marks: 90
+```
+
+---
+
+## Learning Concepts
+
+* Class and Object creation
+* Input/Output handling
+* Use of `getline()` with `cin`
+* Encapsulation
+
+---
+
+## Future Improvements
+
+* Add more students using arrays or vectors
+* Include grade calculation
+* Add file handling to save data
+* Create menu-driven program
+
+
